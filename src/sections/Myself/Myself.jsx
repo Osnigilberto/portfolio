@@ -62,9 +62,11 @@ function Myself() {
           </a>
         </span>
         <p className={styles.description}>
-          Sou um frontend developer com foco em componentes reutilizáveis e
-          testes unitários. Atualmente trabalho remotamente em um time de
-          desenvolvimento web.
+          I am a front-end developer with experience in HTML, CSS, JavaScript
+          and React, passionate about transforming ideas into interactive and
+          intuitive interfaces. With solid skills in responsive design and
+          usability, I create solutions that combine aesthetics and performance,
+          providing optimized user experiences.
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
