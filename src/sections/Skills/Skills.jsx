@@ -10,12 +10,16 @@ const Skills = () => {
         <SkillList icon={faCheck} skill="HTML" />
         <SkillList icon={faCheck} skill="CSS" />
         <SkillList icon={faCheck} skill="JavaScript" />
+        <SkillList icon={faCheck} skill="CSS Responsivo" />
       </div>
       <hr />
       <div className={styles.skillList}>
         <SkillList icon={faCheck} skill="React" />
         <SkillList icon={faCheck} skill="Node.js" />
         <SkillList icon={faCheck} skill="Next.js" />
+        <SkillList icon={faCheck} skill="RWD" />
+        <SkillList icon={faCheck} skill="Solidity" />
+        
       </div>
     </section>
   );

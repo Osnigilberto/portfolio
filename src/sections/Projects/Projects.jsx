@@ -2,6 +2,10 @@ import styles from './ProjectsStyles.module.css';
 import catlovers from '../../assets/logocatlovers.png';
 import matamosquito from '../../assets/Screenshot_4.png';
 import ProjectCard from '../../common/ProjectCard';
+import signup from '../../assets/signup.png';
+import ticTacToe from '../../assets/tictactoe.png';
+import espacomuniz from '../../assets/espacomuniz.png';
+import farmers from '../../assets/farmers.png';
 const Projects = () => {
   return (
     <section id="projects" className={styles.container}>
@@ -16,10 +20,34 @@ const Projects = () => {
         />
         <ProjectCard
           src={matamosquito}
-          link="https://github.com/Osnigilberto/matamosquito"
+          link="https://osnigilberto.github.io/matamosquito/"
           h2="matamosquito"
           p="The mosquito killer game was my first work in javascript, a game where you have to eliminate the flies before they disappear"
         />
+        <ProjectCard
+          src={signup}
+          link="https://criarconta-entrar.netlify.app/"
+          h2="Sign Up - Login"
+          p="A user authentication interface for login and signup, featuring validation, responsive design, and integration-ready structure for backend APIs"
+        /> 
+        <ProjectCard
+          src={ticTacToe} // substitua 'ticTacToeImage' pelo caminho ou import da imagem representando o projeto
+          link="https://react-jogodavelha.netlify.app/"
+          h2="Tic Tac Toe"
+          p="A classic Tic-Tac-Toe game built with React, featuring customizable icons, responsive design, and engaging gameplay."
+        />
+        <ProjectCard
+          src={espacomuniz}
+          link= "https://espacomuniz.vercel.app/"
+          h2= "Espaço Muniz Castro"
+          p= "Espaço Muniz Castro specializes in chiropractic care and myofascial release, offering personalized treatments to improve our patients' health and well-being."
+        />
+        <ProjectCard
+          src={farmers}
+          link="https://farmers-livid.vercel.app/"
+          h2= "Antônio Carlos Farmers"
+          p="Antônio Carlos Farmers is a social basketball project in the city of Antônio Carlos, SC."
+          />
       </div>
     </section>
   );
