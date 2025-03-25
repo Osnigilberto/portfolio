@@ -6,6 +6,7 @@ import signup from '../../assets/signup.png';
 import ticTacToe from '../../assets/tictactoe.png';
 import espacomuniz from '../../assets/espacomuniz.png';
 import farmers from '../../assets/farmers.png';
+import coffeeshop from '../../assets/coffeeshop.png';
 const Projects = () => {
   return (
     <section id="projects" className={styles.container}>
@@ -14,14 +15,14 @@ const Projects = () => {
         <ProjectCard
           src={catlovers}
           link="https://github.com/Osnigilberto/Catlovers"
-          h2="catlovers"
+          h2="Catlovers"
           p="A platform where users can find and share cat photos, connect with other
         cat lovers, and create a community."
         />
         <ProjectCard
           src={matamosquito}
           link="https://osnigilberto.github.io/matamosquito/"
-          h2="matamosquito"
+          h2="Mata Mosquito"
           p="The mosquito killer game was my first work in javascript, a game where you have to eliminate the flies before they disappear"
         />
         <ProjectCard
@@ -47,6 +48,12 @@ const Projects = () => {
           link="https://farmers-livid.vercel.app/"
           h2= "Antônio Carlos Farmers"
           p="Antônio Carlos Farmers is a social basketball project in the city of Antônio Carlos, SC."
+          />
+          <ProjectCard
+          src={coffeeshop}
+          link="https://cafeteriapao.netlify.app/"
+          h2= "Coffee Shop"
+          p="From bean to cup, with love and quality."
           />
       </div>
     </section>
