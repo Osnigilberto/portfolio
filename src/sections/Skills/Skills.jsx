@@ -11,6 +11,8 @@ const Skills = () => {
         <SkillList icon={faCheck} skill="CSS" />
         <SkillList icon={faCheck} skill="JavaScript" />
         <SkillList icon={faCheck} skill="CSS Responsivo" />
+        <SkillList icon={faCheck} skill="Bootstrap" />
+        <SkillList icon={faCheck} skill="Git" />
       </div>
       <hr />
       <div className={styles.skillList}>
@@ -19,6 +21,8 @@ const Skills = () => {
         <SkillList icon={faCheck} skill="Next.js" />
         <SkillList icon={faCheck} skill="RWD" />
         <SkillList icon={faCheck} skill="Solidity" />
+        <SkillList icon={faCheck} skill="Hardhat" />
+        
         
       </div>
     </section>

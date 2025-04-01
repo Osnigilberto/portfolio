@@ -9,6 +9,7 @@ import farmers from '../../assets/farmers.png';
 import coffeeshop from '../../assets/coffeeshop.png';
 import codeqrgene from '../../assets/codeqrgene.png';
 import personaltrainer from '../../assets/personaltrainer.png';
+import coffeeshopvirtual from '../../assets/coffeeshopvirtual.png'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Projects = () => {
@@ -70,6 +71,12 @@ const Projects = () => {
           link="https://personaltraine.netlify.app/"
           h2= "Personal Trainer"
           p="Achieve Your Goals with Personalized Training! 💪🏋️"
+          />
+          <ProjectCard
+          src={coffeeshopvirtual}
+          link="https://coffeeshopvirtual.netlify.app/"
+          h2= "Coffee Shop Virtual"
+          p="A sensory experience in every cup ☕✨"
           />
       </div>
     </section>
