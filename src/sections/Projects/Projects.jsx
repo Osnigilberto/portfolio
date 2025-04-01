@@ -55,6 +55,18 @@ const Projects = () => {
           h2= "Coffee Shop"
           p="From bean to cup, with love and quality."
           />
+          <ProjectCard
+          src={codeqrgene}
+          link="https://codeqrgene.netlify.app/"
+          h2= "Generation code qr"
+          p="Generate code qr"
+          />
+          <ProjectCard
+          src={personaltrainer}
+          link="https://personaltraine.netlify.app/"
+          h2= "Personal Trainer"
+          p="Achieve Your Goals with Personalized Training! 💪🏋️"
+          />
       </div>
     </section>
   );
