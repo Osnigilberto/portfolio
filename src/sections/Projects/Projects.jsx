@@ -7,6 +7,10 @@ import ticTacToe from '../../assets/tictactoe.png';
 import espacomuniz from '../../assets/espacomuniz.png';
 import farmers from '../../assets/farmers.png';
 import coffeeshop from '../../assets/coffeeshop.png';
+import codeqrgene from '../../assets/codeqrgene.png';
+import personaltrainer from '../../assets/personaltrainer.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 const Projects = () => {
   return (
     <section id="projects" className={styles.container}>
